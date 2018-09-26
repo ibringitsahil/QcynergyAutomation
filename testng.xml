@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.qcynergy.test.customListener.Listener"></listener>
+	</listeners>
+
+	<test name="Test">
+		<classes>
+			<!-- <class name="com.qcynergy.suite.TC1_VerifyLogin" /> -->
+			<class name="com.qcynergy.suite.TC2_VerifyCountOnTradeStatus" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
